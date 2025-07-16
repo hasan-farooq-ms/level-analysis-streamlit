@@ -1,8 +1,7 @@
 data/
 notebooks/
 shop/
+misc/
+.DS_Store
 __pycache__/
 *.py[cod]
-.DS_Store
-./shop_qa.pdf
-
