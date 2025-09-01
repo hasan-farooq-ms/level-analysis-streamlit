@@ -10,7 +10,7 @@ from sklearn.metrics import r2_score
 from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import KMeans
 
-df = pd.read_csv("./data/level-details.csv")
+df = pd.read_csv("./level-details.csv")
 
 del df["Event Data Unq Users Level Started (Before X Days)"]
 del df["Event Data Unq Users Level Completed (Before X Days)"]
