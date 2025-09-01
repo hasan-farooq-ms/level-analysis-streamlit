@@ -17,7 +17,12 @@ CATEGORY_QUESTIONS = {
         "Q9: What is the lifetime value (LTV) segmented by first purchase level or product?",
         "Q10: How do session counts relate to total IAP spend?",
     ],
-    "👤 Segmentation": [f"Q{n}: Placeholder" for n in range(12, 18)],
+    "👤 Segmentation": [
+        "Q11: Can users be clustered based on spending patterns?",
+        "Q12: Are certain player personas more monetizable?",
+        "Q13: How Do Engagement Profiles Relate to Spend?",
+        "Q14: Which lifetime status metrics best differentiate high-payers from low-payers?",
+    ],
     "💸 Ad Monetization": [f"Q{n}: Placeholder" for n in range(18, 23)],
     "🧪 Purchase Intent": [f"Q{n}: Placeholder" for n in range(23, 27)],
     "⏳ Timing & Sessions": [f"Q{n}: Placeholder" for n in range(27, 30)],

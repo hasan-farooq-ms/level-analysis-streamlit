@@ -28,9 +28,13 @@ def render_question(question_text):
     elif qnum == 10:
         from questions.purchase.q10_session_vs_spend import render
     elif qnum == 11:
-        from questions.purchase.q11_shop_open_before_purchase import render
-    elif 12 <= qnum <= 17:
-        from questions.segmentation.q12_to_q17_placeholder import render
+        from questions.segmentation.q11_user_spend import render
+    elif qnum == 12:
+        from questions.segmentation.q12_persona_analysis import render
+    elif qnum == 13:
+        from questions.segmentation.q13_engagement_correlation import render
+    elif qnum == 14:
+        from questions.segmentation.q14_engagement_by_spend_tier import render
     elif 18 <= qnum <= 22:
         from questions.ad_monetization.q18_to_q22_placeholder import render
     elif 23 <= qnum <= 26:
